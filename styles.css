@@ -1,3 +1,8 @@
+
+a {text-decoration: none}
+
+/*Paragraf*/
+
 .p1 {
     font-family: "Times New Roman", Times, serif;
   }
@@ -9,3 +14,71 @@
   .p3 {
     font-family: "Lucida Console", "Courier New", monospace;
   }
+
+.badan{
+	height: 100%;
+}
+/*bagian sidebar*/
+
+
+.wrap .badan .sidebar{
+	background:  #e7fff5  ;
+	float: left;	
+	width: 20%;
+	height: 50%;
+    {
+        border-width:0px;  
+        border-style:none;
+        }
+}
+
+/*akhir sidebar*/
+
+
+ul {
+    margin: 0 0 0 1em;
+    padding: 0; 
+    } 
+    
+    .wrap .badan .content_utama{
+
+        float: left;
+        height: 100%;
+        width: 80%;	
+    }
+    .wrap .badan .content1{
+        background:   #ffffff ;
+        float: left;
+        height: 100%;
+        width: 100%;	
+    }
+    
+    .wrap .footer{
+        width: 100%;
+        padding: 100px;
+    }
+
+
+    /*Tabel*/
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      th {
+          padding-top: 5px;
+          padding-bottom: 5px;
+          text-align: left;
+          background-color:  #109145 ;
+          color: white
+          }
+
+/*Divisi*/
