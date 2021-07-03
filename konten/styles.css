@@ -1,17 +1,36 @@
 
-a {text-decoration: none}
+a {
+  text-decoration: none;
+  color: #072914;
+}
+
+/* unvisited link */
+a:link {
+  color: #109145;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(11, 83, 105);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(28, 4, 238);
+}
+
+/* selected link */
+a:active {
+  color: #072914;
+}
 
 /*Paragraf*/
 
-.p1 {
-    font-family: "Times New Roman", Times, serif;
+.p2 {
+    font-family: Helvetica, sans-serif;
   }
   
-  .p2 {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .p3 {
+.p3 {
     font-family: "Lucida Console", "Courier New", monospace;
   }
 
@@ -24,8 +43,8 @@ a {text-decoration: none}
 .wrap .badan .sidebar{
 	background:  #e7fff5  ;
 	float: left;	
-	width: 20%;
-	height: 80%;
+	width: 25%;
+	height: 100%;
     {
         border-width:0px;  
         border-style:none;
