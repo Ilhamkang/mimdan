@@ -28,6 +28,7 @@ a:active {
 
 .p2 {
     font-family: Helvetica, sans-serif;
+    font-size: 14px;
   }
   
 .p3 {
@@ -95,21 +96,24 @@ ul {
         width: 100%;
         padding-top: 12px;
         padding-bottom: 12px;
+        font-size: 14px;
       }
       
       td, th {
         border: 1px solid #dddddd;
         text-align: left;
         padding: 8px;
+        font-size: 14px;
       }
 
       th {
           padding-top: 5px;
           padding-bottom: 5px;
           text-align: left;
-          background-color:  #109145 ;
-          color: white
-          }
+          background-color: #109145 ;
+          color: white;
+          font-size: 14px;
+        }
 
 /*Footer*/
 .wrap .footer{
