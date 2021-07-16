@@ -42,6 +42,15 @@ a:active {
 .badan{
 	height: 100%;
 }
+
+/* Heading*/
+h3 {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  font-weight: bold;
+}
+
+
 /*bagian sidebar*/
 
 
@@ -86,7 +95,7 @@ ul {
         background:   #ffffff ;
         float: left;
         height: 5%;
-        width: 100%;	
+        width: 75%;
     }
     
     .wrap .footer{
@@ -99,8 +108,8 @@ ul {
     table {
         border-collapse: collapse;
         width: 100%;
-        padding-top: 12px;
-        padding-bottom: 12px;
+        padding-top: 5px;
+        padding-bottom: 5px;
       }
       
       td, th {
@@ -110,8 +119,7 @@ ul {
       }
 
       th {
-          padding-top: 5px;
-          padding-bottom: 5px;
+          padding: 2px;
           text-align: left;
           background-color:  #109145 ;
           color: white
