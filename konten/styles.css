@@ -45,7 +45,7 @@ a:active {
 .wrap .badan .sidebar{
 	background:  #e7fff5  ;
 	float: left;	
-	width: 25%;
+	width: 20%;
 	height: 80%;
     {
         border-width:0px;  
@@ -56,7 +56,7 @@ a:active {
 .wrap .badan .sidebar2{
 	background:  #e7fff5  ;
 	float: left;	
-	width: 20%;
+	width: 20%
 	height: 20%;
     {
         border-width:0px;  
@@ -76,7 +76,7 @@ ul {
 
         float: left;
         height: 100%;
-        width: 80%;	
+        width: 100%;	
     }
     .wrap .badan .content1{
         background:   #ffffff ;
@@ -95,7 +95,7 @@ ul {
     table {
         border-collapse: collapse;
         width: 100%;
-        padding-top: 12px;
+        padding-top: 6px;
         padding-bottom: 12px;
         font-size: 14px;
       }
@@ -103,7 +103,7 @@ ul {
       td, th {
         border: 1px solid #dddddd;
         text-align: left;
-        padding: 8px;
+        padding: 5px;
         font-size: 14px;
       }
 
